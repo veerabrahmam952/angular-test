@@ -1,0 +1,67 @@
+.vitech-page-header {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color:#003b63;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    padding-top: 2px;
+    z-index: 10;
+  }
+
+  .vitect-loginContainer{
+    position: fixed;
+    width: 50%;
+    left: 0;
+    background: #ffffff;
+    margin-top: 12%;
+    margin-left: 75px;
+  }
+  .vitect-background {
+    /* background: transparent url('assets/images/backgroundimg.png') 0% 0% no-repeat; */
+    background: url('../../assets/images/SignIn_picture_old.jpg') top right no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .GRITAtab{
+    text-align: left;
+    position: fixed;
+    right: 0;
+    top: 130px;
+    width: 120px;
+    background: #003b63;
+  }
+
+  .GRITAtab-label{
+    background-image: url(../../assets/images/Grita.jpg) !important;
+    height: 35px;
+    width: 120px;
+    background-size: 30% 120%;
+    background-repeat: no-repeat;
+    background-color: #003b63 !important;
+    border-color: #003b63 !important;
+  }
+
+  .QuickSighttab{
+    text-align: left;
+    position: fixed;
+    right: 0;
+    top: 170px;
+    width: 120px;
+    background: #003b63;
+  }
+
+  .QuickSighttab-label{
+    background-image: url(../../assets/images/quicksight.png) !important;
+    height: 35px;
+    width: 120px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #003b63 !important;
+    border-color: #003b63 !important;
+    text-align: right !important;
+  }

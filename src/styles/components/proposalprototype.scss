@@ -1,0 +1,117 @@
+.proposalcard{
+    height: fit-content;
+    border-width: thin;
+    display: block;
+    max-width: 100%;
+    outline: none;
+    text-decoration: none;
+    transition-property: box-shadow,opacity;
+    word-wrap: break-word;
+    position: relative;
+    white-space: normal;
+    background: #fff;
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+    border-radius: 4px;
+    margin-top: 90px;
+  }
+  
+  .proposalUpload{
+    height: fit-content;
+    border-width: thin;
+    display: block;
+    max-width: 100%;
+    outline: none;
+    text-decoration: none;
+    transition-property: box-shadow,opacity;
+    word-wrap: break-word;
+    position: relative;
+    white-space: normal;
+    background: #fff;
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+    border-radius: 4px;
+    margin-top: 60px;
+  }
+  .dashboard-proposal {
+    /* background: transparent url('assets/images/backgroundimg.png') 0% 0% no-repeat; */
+    background: url('../../assets/images/Picture1.jpg') top right no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: 100%; */
+  }
+  .newupload-proposalimage{
+     /* background: transparent url('assets/images/backgroundimg.png') 0% 0% no-repeat; */
+     background: url('../../assets/images/NewUploadProposal.jpg') top right no-repeat;
+     background-attachment: fixed;
+     height: 100%;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     /* background-size: 100%; */
+  }
+  .censusStep1_bg{
+    background: url('../../assets/images/census_step1.jpg') top right no-repeat;
+    background-attachment: fixed;
+    /* overflow: auto; */
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .censusUpload_bg{
+    background: url('../../assets/images/census_upload_new.jpg') top right no-repeat;
+    background-attachment: fixed;
+    /* overflow: auto; */
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .censusConfirmUpload_bg{
+    background: url('../../assets/images/confirm_upload.jpg') top right no-repeat;
+    background-attachment: fixed;
+    /* overflow: auto; */
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .census-datable{
+    overflow-y:scroll;
+    min-height: 100px!important;
+    max-height: 400px!important;
+
+  }
+  .census_center_bg{
+    background: url('../../assets/images/census_center.jpg') top right no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .census_welcome_bg{
+    background: url('../../assets/images/census_image2.jpg') top right no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .xmlCard{
+    height: fit-content;
+    border-width: thin;
+    display: block;
+    max-width: 100%;
+    outline: none;
+    text-decoration: none;
+    transition-property: box-shadow,opacity;
+    word-wrap: break-word;
+    position: relative;
+    white-space: normal;
+    background: #ffffffad;
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+    border-radius: 4px;
+    margin-top: 150px;
+    top: -35px;
+    border: 8px solid #003b63;
+  }

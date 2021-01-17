@@ -1,0 +1,109 @@
+.welcomebutton{
+    bottom: 53px;
+    left: 17pc;
+  }
+  .step1button{
+    bottom: 54px;
+    left: 15pc;
+  }
+  .uploadbutton{
+    left: 29px;
+  }
+  .step2button{
+    bottom: 54px;
+    left: 17pc;
+  }
+  .upload-icon{
+    margin-left: 5px;
+    color: #003b63;
+  }
+  .card-title{
+    margin-bottom: .75rem !important;
+    color: #003b63 !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+  }
+  .status1{
+    border-color: rosybrown !important;
+    border-radius: 18px !important;
+    height: 100px;
+    border-width: 3px !important;
+  }
+  .status2{
+    border-color: #dc3545 !important;
+    border-radius: 18px !important;
+    height: 100px;
+    border-width: 3px !important;
+  }
+  .status3{
+    border-color: #ffc107 !important;
+    border-radius: 18px !important;
+    height: 100px;
+    border-width: 3px !important;
+  }
+  .status4{
+    border-color: #28a745 !important;
+    border-radius: 18px !important;
+    height: 100px;
+    border-width: 3px !important;
+  }
+  .icon1class{
+    color: rosybrown;
+  }
+  .icon2class{
+    color: #dc3545 !important;
+    margin-top: 3px !important;
+  }
+  .icon3class{
+    color: #ffc107;
+  }
+  .icon4class{
+    color: #28a745;
+  }
+
+  .dashboard-groupInsurance {
+    /* background: transparent url('assets/images/backgroundimg.png') 0% 0% no-repeat; */
+    background: url('../../assets/images/SignIn_picture.jpg');
+    background-attachment: fixed;
+    /* overflow: auto; */
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .dashboard-groupInsuranceProposal {
+    /* background: transparent url('assets/images/backgroundimg.png') 0% 0% no-repeat; */
+    background: url('../../assets/images/Picture3.jpg') top right no-repeat;
+    background-attachment: fixed;
+    /* overflow: auto; */
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .dashboard-groupInsuranceWelcome {
+    /* background: transparent url('assets/images/backgroundimg.png') 0% 0% no-repeat; */
+    background: url('../../assets/images/469063519.jpg') top right no-repeat;
+    background-attachment: fixed;
+    /* overflow: auto; */
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .table {
+    border: 1px solid #003b63 !important;
+    border-collapse: collapse !important;
+    padding: 5px !important;
+  }
+  .table td {
+    background-color: inherit;
+    border: 1px solid #003b63 !important;
+  }
+  .table th {
+    background-color: inherit!important;
+    border: 1px solid #003b63 !important;
+    border-top: 1px solid #003b63 !important;
+    border-bottom: 1px solid #003b63 !important;
+  }

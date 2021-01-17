@@ -1,0 +1,35 @@
+.grpOcrtxt{
+    color: #003b63;
+  }
+  .grpOcrright{
+    right: 43px;
+  }
+
+  .grpocrcard{
+    height: 450px;
+    border-width: thin;
+    display: block;
+    max-width: 100%;
+    outline: none;
+    text-decoration: none;
+    transition-property: box-shadow,opacity;
+    word-wrap: break-word;
+    position: relative;
+    white-space: normal;
+    background: #fff;
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+    border-radius: 4px;
+    margin-top: 30px;
+    width: 600px !important;
+    overflow-y: scroll;
+    overflow-x: scroll;
+  }
+  .grpocrcard::-webkit-scrollbar {
+    display: none;
+    }
+    
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .grpocrcard {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    }

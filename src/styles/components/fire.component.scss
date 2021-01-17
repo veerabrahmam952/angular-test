@@ -1,0 +1,1229 @@
+/* groupInsurance CSS */
+
+  /* DashBoard and Another CSS */
+   .container-fluid {
+    width: 100% !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+   }
+  .dashboard-container {
+    /* background: transparent url('assets/images/backgroundimg.png') 0% 0% no-repeat; */
+    background: url('../../assets/images/backgroundimg.png') top right no-repeat;
+    background-attachment: fixed;
+    /* background-size: 100%; */
+  }
+  .ngp_background {
+    /* background: transparent url('assets/images/backgroundimg.png') 0% 0% no-repeat; */
+    background: url('../../assets/images/Main\ Back\ -\ ZIP\ Code.jpg') top right no-repeat;
+    background-attachment: fixed;
+    overflow: auto;
+    background-size: 100%;
+  }
+  .Headermenu{
+    color: #fff !important;
+    font-size: 15px;
+    padding: 0px 30px 0px 0px;
+  }
+  .menu-options{
+    margin-left: 280px !important;
+    margin-top: 15px;
+  }
+  
+  
+
+  .block {
+    top: 272px;
+    left: 961px;
+    width: 192px;
+    height: 34px;
+    opacity: 1;
+  }
+  .leftNavTab{
+    position: fixed;
+    left: 0;
+    background-color: #ffffff;
+    top: 103px;
+    max-width: 160px;
+    border: 5px solid #003b63;
+    color: #003b63;
+  }
+
+  .leftTabBtn{
+    text-align: center;
+    position: fixed;
+    left: 0px;
+    top: 65px;
+    width: 40px;
+    background: #003b63;
+  }
+
+  .leftTabBtn-label{
+    background-color: #003b63 !important;
+  }
+
+  
+
+  .icon {
+    top: 175px;
+    left: 274px;
+    width: 27px;
+    height: 27px;
+    background: #00D262 0% 0% no-repeat padding-box;
+    border: 1px solid #393A3E;
+    opacity: 1;
+  }
+
+  .infoStrip_claim {
+    position: absolute;
+    top: 110px;
+    left: 0;
+    right: 0;
+    height: 70px;
+    align-items: center;
+    opacity: 1;
+    background:#DFDFDF 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    vertical-align: middle;
+  }
+  .stripContent {
+    text-align: left;
+    font-size: 12px;
+    color: #393a3e;
+  }
+
+  .carousel {
+    margin-top: 110px;
+  }
+  .imgstyle{
+    height: 35px;
+    width: 35px;
+  }
+
+  tr{
+    background-color: #fff !important;
+  }
+
+  tr:hover {
+    background-color: #17a2b8 !important;
+    color: #fff;
+  }
+.text-title{
+  font-weight: 700!important;
+  text-align: center;
+  color: #003b63!important;
+  caret-color: #003b63!important;
+  font-size: 1.25rem!important;
+  letter-spacing: 0.0125em!important;
+  /* /* line-height: 2rem; */
+  font-family: undefined,sans-serif!important;
+}
+
+
+.text {
+  top: 280px;
+left: 993px;
+width: 160px;
+height: 17px;
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-12)/var(--unnamed-line-spacing-16) var(--unnamed-font-family-graphik);
+letter-spacing: var(--unnamed-character-spacing-0-3);
+text-align: left;
+font: normal normal normal 12px/16px Graphik;
+letter-spacing: 0.3px;
+color: #003b63;
+opacity: 1;
+vertical-align: top;
+}
+.icon{
+  top: 175px;
+left: 274px;
+width: 27px;
+height: 27px;
+background: #00D262 0% 0% no-repeat padding-box;
+border: 1px solid #393A3E;
+opacity: 1;
+}
+.infoStrip {
+  position: absolute;
+  top: 55px;
+  left: 0;
+  right: 0;
+  height: 55px;
+  align-items: center;
+  opacity: 1;
+  background: #DFDFDF 0% 0% no-repeat padding-box;
+  mix-blend-mode: normal;
+  vertical-align: middle;
+}
+.claimcard{
+  top:-235px;
+}
+.cardcontentclaim{
+  top: 0px;
+}
+.AIstrip {
+  margin-top: 35px;
+  margin-left: 10px;
+}
+.form-control:focus {
+border-color: #003b63 !important;
+box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.075), 0 0 2px #003b63 !important;
+}
+.claimadjustercircularbar{
+  display: flex;
+  flex-direction: column-reverse;
+  line-height: 0px;
+}
+.dashboardlinearbar{
+  font-weight: 700; 
+  font-size: 10px;
+  margin-top: 7px; 
+}
+.footerStripClaimAdjuster{
+  position: relative;
+  bottom: -135px;
+  height: 50px;
+  align-items: center;
+  background: #494949;
+  color: white;
+  opacity: 1;
+  mix-blend-mode: normal;
+  vertical-align: middle;
+  font-size: 12px;
+}
+
+  /* background: transparent url('assets/images/backgroundimg.png') 0% 0% no-repeat; */
+  /* background: url('assets/images/backgroundimg.png')  top right no-repeat;
+  background-attachment: fixed; */
+  /* background-size: 100%; */
+
+
+  /* } */
+
+  .claimSensorInfoStrip {
+    top: 170px;
+  }
+
+  .claimcard {
+    top: -235px;
+  }
+  .rowborderbotom {
+    border-bottom: 3px solid lightgray;
+    height: 55px;
+  }
+
+  .claimadjustercircularbar {
+    display: flex;
+    flex-direction: column-reverse;
+    line-height: 0px;
+  }
+
+  .footerStripClaimAdjuster {
+    position: relative;
+    bottom: -135px;
+    height: 50px;
+    align-items: center;
+    background: #494949;
+    color: white;
+    opacity: 1;
+    mix-blend-mode: normal;
+    vertical-align: middle;
+    font-size: 12px;
+  }
+
+
+  .footerStripAILed {
+    position: unset;
+    bottom: -30px;
+    left: 0;
+    right: 0;
+    height: 50px;
+    align-items: center;
+    background: #494949;
+    color: white;
+    opacity: 1;
+    mix-blend-mode: normal;
+    vertical-align: middle;
+    font-size: 12px;
+  }
+
+  .footerStripRelative {
+    position: relative;
+    bottom: -30px;
+    left: 0;
+    right: 0;
+    height: 50px;
+    align-items: center;
+    background-color:#494949;
+    color: white;
+    opacity: 1;
+    mix-blend-mode: normal;
+    vertical-align: middle;
+    font-size: 12px;
+  }
+
+  .footerStripDashBoard {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    align-items: center;
+    background-color:#494949;
+    color: white;
+    mix-blend-mode: normal;
+    vertical-align: middle;
+    font-size: 12px;
+  }
+
+  .infoStripContent {
+    vertical-align: middle;
+  }
+
+  .stripContentHeader {
+    text-align: left;
+    font-size: 12px;
+    color: #393a3e;
+    font-weight: bold;
+  }
+
+  /* .chip {
+  display: inline-block;
+  padding: 0 25px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  border-radius: 25px;
+  background-color: #f1f1f1;
+} */
+
+  .chip {
+    display: inline-block;
+    padding: 0 5px;
+    height: 10px;
+    font-size: 14px;
+    line-height: 10px;
+    border-radius: 25px;
+  }
+
+  .chip img {
+    float: left;
+    margin: 0 60px -21px -33px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+  }
+
+  .chipiconcolorRed {
+    color: red;
+  }
+
+  .chipiconcolorGreen {
+    color: lightgreen;
+  }
+
+  .closebtn {
+    padding-left: 10px;
+    color: #888;
+    font-weight: bold;
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+}
+.p-text {
+padding-top: 15pt;
+}
+.p-value {
+margin-top: 15pt;
+}
+.circle-blue {
+border-radius: 50%;
+display: inline-block;
+width: 60px;
+height: 60px;
+vertical-align: middle;
+background-color: #64a7ed;
+text-align: center;
+margin-right: 35pt;
+}
+.circle-brown {
+border-radius: 50%;
+display: inline-block;
+width: 60px;
+height: 60px;
+vertical-align: middle;
+background-color: rosybrown;
+text-align: center;
+margin-right: 35pt;
+}
+.circle-yellow {
+border-radius: 50%;
+display: inline-block;
+width: 60px;
+height: 60px;
+vertical-align: middle;
+background-color: rgb(26, 193, 186);
+text-align: center;
+margin-right: 35pt;
+}
+.circle-green {
+border-radius: 50%;
+display: inline-block;
+width: 60px;
+height: 60px;
+vertical-align: middle;
+background-color: #28a745b3;
+text-align: center;
+/* margin-right: 35pt; */
+}
+
+.btnprimary {
+  color: #fff !important;
+  background-color: #003b63 !important;
+  border-color: #003b63 !important;
+}
+
+  .closebtn:hover {
+    color: #000;
+  }
+
+
+  .sensormap {
+    margin-top: 7px;
+  }
+
+  .sensorinforstrip {
+    padding: 10px;
+    vertical-align: middle;
+  }
+
+  .sensorinforstripchipsmap {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    padding-right: 10px;
+    padding-top: 6px;
+  }
+
+  .sensorinfocard {
+    padding-left: 0;
+  }
+
+  .sensorinfocardheading {
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .page-header {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    width: 98%;
+  }
+
+  .header-left-container{
+    margin-top: 3px;
+    margin-left: 5px;
+    float: left;
+  }
+
+  .header-right-container{
+    float: right;
+  }
+
+  .header-right-container div{
+    float: right;
+  }
+
+  .floatLeft {
+    float: left;
+  }
+
+  .floatRight {
+    float: right;
+  }
+
+  
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .displayClass {
+    display: block;
+  }
+
+  .hideClass {
+    display: none;
+  }
+
+  .claimDetailContainer {
+    margin: 50px 0;
+    width: 100%;
+    height: 300px;
+  }
+
+  .claimsDetMolecule {
+    float: left;
+    width: 100%;
+  }
+
+  .sensorinforstripDashboardmap {
+    margin-top: 201px;
+  }
+
+.sensormap{
+  margin-top: 7px;
+}
+.sensorinforstripmap {
+  padding: 0px 8px;
+  vertical-align: middle;
+  margin-top: 25px;
+}
+
+.sensorinfocardtext {
+  font-size: 14px;
+}
+
+.page-header{
+  position: absolute;
+  top: 0;
+  left: 15px;
+  width: 98%;
+}
+.floatLeft{
+  float: left;
+}
+.floatRight{
+  float: right;
+}
+.badge {
+  position: absolute;
+  top: 0px;
+  right: 55px;
+  padding: 5px 7px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+}
+.dropdown-content {
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  margin-left: -130px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.displayClass{
+  display:block;
+}
+.hideClass{
+  display: none;
+}
+.claimDetailContainer{
+  margin: 15px 0;
+  width: 100%;
+  height: 300px;
+}
+.claimsDetMolecule{
+  float: left;
+  width: 100%;
+}
+
+.scurvesensoritemmarker {
+  position: absolute;
+  top: 440px;
+}
+
+.scurvefireitemmarker {
+  position: absolute;
+  top: 440px;
+  left: 395px;
+}
+
+.scurvecarrieritemmarker {
+  position: absolute;
+  top: 440px;
+  left: 675px;
+}
+
+.scurvefnolitemmarker {
+  position: absolute;
+  top: 440px;
+  left: 940px;
+}
+
+/* Always set the map height explicitly to define the size of the div
+     * element that contains the map. */
+  #map {
+    height: 400px;
+    width: 100%;
+    overflow: auto;
+    margin-top: 10px;
+  }
+
+  #map1 {
+    height: 400px;
+    width: 100%;
+    overflow: auto;
+    margin-top: 10px;
+  }
+
+  /* Optional: Makes the sample page fill the window. */
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+  }
+
+  #floating-panel {
+    visibility: hidden;
+  }
+
+  #right-panel {
+    visibility: hidden;
+  }
+
+  #map {
+    height: 400px;
+    width: 100%;
+    overflow: auto;
+    margin-top: 10px;
+  }
+
+  #map1 {
+    height: 400px;
+    width: 100%;
+    overflow: auto;
+    margin-top: 10px;
+  }
+
+
+  /* Optional: Makes the sample page fill the window. */
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #floating-panel {
+    visibility: hidden;
+  }
+
+  #right-panel {
+    visibility: hidden;
+  }
+
+  .scurveorganismposition {
+    position: absolute;
+    top: 120px;
+  }
+
+  .success{
+filter: sepia(1) hue-rotate(81deg) saturate(10) brightness(0.7); 
+/* -webkit-filter: hue-rotate(70deg) saturate(100); */
+  /* filter: hue-rotate(70deg) saturate(100); */
+}
+
+.fail{
+  filter: brightness(700%) sepia(1) grayscale(129%) brightness(0.74);
+}
+
+.prog{
+  filter: sepia(1) hue-rotate(372deg) saturate(6) brightness(1) brightness(100%);
+}
+  .firsthalf {
+    position: absolute;
+    top: 8px;
+    left: 150px;
+  }
+
+  
+
+  .startcircle {
+    position: absolute;
+    top: 118px;
+    z-index: 1;
+    left: 5px;
+  }
+
+  .startcircleicon {
+    position: absolute;
+    top: 127px;
+    z-index: 2;
+    left: 14px;
+    color: white;
+  }
+
+  .firstcircleicon {
+    position: absolute;
+    top: 14px;
+    z-index: 2;
+    left: 134px;
+    color: white;
+  }
+
+  .firstcircle {
+    position: absolute;
+    top: 3px;
+    z-index: 1;
+    left: 124px;
+  }
+
+  .firstitemcircle {
+    position: absolute;
+    top: 91px;
+    z-index: 1;
+    left: 85px;
+    cursor: pointer;
+    background: #003b63;
+    padding: 65px;
+    border-radius: 50%;
+    display: block;
+    width: 50px;
+    height: 50px;
+  }
+
+  .firstitem {
+    position: absolute;
+    top: 127px;
+    z-index: 2;
+    left: 119px;
+    cursor: pointer;
+  }
+
+  .secondcircleicon {
+    position: absolute;
+    top: 258px;
+    z-index: 2;
+    left: 382px;
+    color: white;
+  }
+
+  .secondcircle {
+    position: absolute;
+    top: 247px;
+    z-index: 1;
+    left: 372px;
+  }
+
+  .seconditemcircle {
+    position: absolute;
+    top: 91px;
+    z-index: 1;
+    left: 334px;
+    cursor: pointer;
+    background: #003b63;
+    padding: 65px;
+    border-radius: 50%;
+    display: block;
+    width: 50px;
+    height: 50px;
+  }
+
+  .seconditem {
+    position: absolute;
+    top: 130px;
+    z-index: 2;
+    left: 371px;
+    cursor: pointer;
+  }
+
+  .thirdcircleicon {
+    position: absolute;
+    top: 15px;
+    z-index: 2;
+    left: 637px;
+    color: white;
+  }
+
+  .thirdcircle {
+    position: absolute;
+    top: 4px;
+    z-index: 1;
+    left: 627px;
+  }
+
+  .thirditemcircle {
+    position: absolute;
+    top: 91px;
+    z-index: 1;
+    left: 588px;
+    cursor: pointer;
+    background: #003b63;
+    padding: 65px;
+    border-radius: 50%;
+    display: block;
+    width: 50px;
+    height: 50px;
+  }
+
+  .thirditem {
+    position: absolute;
+    top: 130px;
+    z-index: 2;
+    left: 627px;
+    cursor: pointer;
+  }
+
+  .secondhalf {
+    position: absolute;
+    left: 397px;
+    top: 8px;
+  }
+
+  .thirdhalf {
+    position: absolute;
+    left: 648px;
+    top: 8px;
+  }
+  .lastcircleicon {
+    position: absolute;
+    top: 140px;
+    z-index: 2;
+    left: 1006px;
+    color: white;
+  }
+
+  .lastcircle {
+    position: absolute;
+    top: 130px;
+    z-index: 1;
+    left: 996px;
+  }
+
+  .endcircleicon {
+    position: absolute;
+    top: 257px;
+    z-index: 2;
+    left: 885px;
+    color: white;
+  }
+
+  .endcircle {
+    position: absolute;
+    top: 247px;
+    z-index: 1;
+    left: 875px;
+  }
+
+  .enditemcircle {
+    position: absolute;
+    top: 91px;
+    z-index: 1;
+    left: 834px;
+    cursor: pointer;
+    background: #003b63;
+    padding: 65px;
+    border-radius: 50%;
+    display: block;
+    width: 50px;
+    height: 50px;
+  }
+
+  .enditem {
+    position: absolute;
+    top: 130px;
+    z-index: 2;
+    left: 870px;
+    cursor: pointer;
+  }
+
+  .float-left {
+    float: left;
+  }
+
+  .clear-float {
+    clear: both;
+  }
+
+  .importbutton {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .importbtncls {
+    box-shadow: 2px 2px #0e7282;
+  }
+
+  .width_130 {
+    width: 130px;
+  }
+  .nextBtn {
+    box-shadow: 2px 2px #003b63;
+  }
+
+  /* Bwizard CSS */
+  .bs-stepper .step-trigger {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #6c757d;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    background-color: transparent;
+    border: none;
+    border-radius: .25rem;
+    transition: background-color .15s ease-out, color .15s ease-out;
+  }
+  
+  .bs-stepper .step-trigger:not(:disabled):not(.disabled) {
+    cursor: pointer;
+  }
+  
+  .bs-stepper .step-trigger:disabled,
+  .bs-stepper .step-trigger.disabled {
+    pointer-events: none;
+    opacity: .65;
+  }
+  
+  .bs-stepper .step-trigger:focus {
+    color: #003b63;
+    outline: none;
+  }
+  
+  .bs-stepper .step-trigger:hover {
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, .06);
+  }
+  
+  @media (max-width: 520px) {
+    .bs-stepper .step-trigger {
+      flex-direction: column;
+      padding: 10px;
+    }
+  }
+  
+  .bs-stepper-label {
+    display: inline-block;
+    margin: .25rem;
+  }
+  
+  .bs-stepper-header {
+    display: flex;
+    align-items: center;
+    border: 1px solid #003b63;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 520px) {
+    .bs-stepper-header {
+      margin: 0 -10px;
+      text-align: center;
+    }
+  }
+
+  
+  .propsalCenter{
+    height: fit-content;
+    border-width: thin;
+    display: block;
+    max-width: 100%;
+    outline: none;
+    text-decoration: none;
+    transition-property: box-shadow,opacity;
+    word-wrap: break-word;
+    position: relative;
+    white-space: normal;
+    background: #fff;
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+    border-radius: 4px;
+    margin-top: 60px;
+  }
+  .confirmation{
+    height: fit-content;
+    border-width: thin;
+    display: block;
+    max-width: 100%;
+    outline: none;
+    text-decoration: none;
+    transition-property: box-shadow,opacity;
+    word-wrap: break-word;
+    position: relative;
+    white-space: normal;
+    background: #fff;
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+    border-radius: 4px;
+    margin-top: 160px;
+    bottom: 50px;
+  }
+  .groupprimary-color{
+    color: #003b63;
+  }
+  
+  .prioritcasebtn{
+    top: 53px;
+  }
+  .nextbutton1{
+    margin-left: 475px;
+  }
+  .nextbuuton2{
+    margin-left: 645px;
+    margin-right: 5px;
+  }
+  .nextbuuton3Step1{
+    margin-left: 590px;
+    margin-right: 5px;
+  }
+  .nextbuutonUpload{
+    margin-left: 715px;
+    margin-right: 5px;
+  }
+
+  .bs-stepper-line,
+  .bs-stepper .line {
+    flex: 1 0 32px;
+    min-width: 1px;
+    min-height: 1px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, .12);
+  }
+  
+  @media (max-width: 400px) {
+    .bs-stepper-line,
+    .bs-stepper .line {
+      flex-basis: 20px;
+    }
+  }
+  
+  .bs-stepper-circle {
+    display: inline-flex;
+    align-content: center;
+    justify-content: center;
+    width: 2em;
+    height: 2em;
+    padding: .5em 0;
+    margin: .25rem;
+    line-height: 1em;
+    color: #fff;
+    background-color: #6c757d;
+    border-radius: 1em;
+  }
+  
+  .active .bs-stepper-circle {
+    background-color: #003b63;
+  }
+  
+  .bs-stepper-content {
+    padding: 20px 20px 20px;
+  }
+  
+  @media (max-width: 520px) {
+    .bs-stepper-content {
+      padding: 0;
+    }
+  }
+  
+  .bs-stepper.vertical {
+    display: flex;
+  }
+  
+  .bs-stepper.vertical .bs-stepper-header {
+    flex-direction: column;
+    align-items: stretch;
+    margin: 0;
+  }
+  
+  .bs-stepper.vertical .bs-stepper-pane,
+  .bs-stepper.vertical .content {
+    display: block;
+  }
+  
+  .bs-stepper.vertical .bs-stepper-pane:not(.fade),
+  .bs-stepper.vertical .content:not(.fade) {
+    display: block;
+    visibility: hidden;
+  }
+  
+  .bs-stepper-pane:not(.fade),
+  .bs-stepper .content:not(.fade) {
+    display: none;
+  }
+  
+  .bs-stepper .content.fade,
+  .bs-stepper-pane.fade {
+    visibility: hidden;
+    transition-duration: .3s;
+    transition-property: opacity;
+  }
+  
+  .bs-stepper-pane.fade.active,
+  .bs-stepper .content.fade.active {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .bs-stepper-pane.active:not(.fade),
+  .bs-stepper .content.active:not(.fade) {
+    display: block;
+    visibility: visible;
+  }
+  
+  .bs-stepper-pane.dstepper-block,
+  .bs-stepper .content.dstepper-block {
+    display: block;
+  }
+  
+  .bs-stepper:not(.vertical) .bs-stepper-pane.dstepper-none,
+  .bs-stepper:not(.vertical) .content.dstepper-none {
+    display: none;
+  }
+  
+  .vertical .bs-stepper-pane.fade.dstepper-none,
+  .vertical .content.fade.dstepper-none {
+    visibility: hidden;
+  }
+
+  /* Previous Classes */
+ 
+  
+
+
+  .header {
+    top: 171px;
+    left: 310px;
+    width: 177px;
+    height: 58px;
+    text-align: left;
+    letter-spacing: -0.09px;
+    color:#003b63;
+    opacity: 1;
+  }
+  .cardClaimAdjuster{
+    margin-top: 170px !important;
+  }
+
+  .dashboardlinearbar {
+    font-weight: 700;
+    font-size: x-small;
+    margin-top: 7px;
+  }
+
+.header{
+  top: 171px;
+left: 310px;
+width: 177px;
+height: 58px;
+text-align: left;
+letter-spacing: -0.09px;
+color:#003b63;
+opacity: 1;
+}
+  .sensorinforstripchips {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    padding-right: 10px;
+    padding-top: 10px;
+  }
+   /* Always set the map height explicitly to define the size of the div */
+
+.sensorinfostrip {
+  margin-top: 10px;
+}
+
+/* Always set the map height explicitly to define the size of the div
+     * element that contains the map. */
+  #map {
+    height: 400px;
+    width: 100%;
+    overflow: auto;
+    margin-top: 10px;
+  }
+
+  #map1 {
+    height: 400px;
+    width: 100%;
+    overflow: auto;
+    margin-top: 10px;
+  }
+
+  /* Optional: Makes the sample page fill the window. */
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+  }
+
+  #floating-panel {
+    visibility: hidden;
+  }
+
+  #right-panel {
+    visibility: hidden;
+  }
+
+  #map {
+    height: 400px;
+    width: 100%;
+    overflow: auto;
+    margin-top: 10px;
+  }
+
+  #map1 {
+    height: 400px;
+    width: 100%;
+    overflow: auto;
+    margin-top: 10px;
+  }
+
+
+  /* Optional: Makes the sample page fill the window. */
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #floating-panel {
+    visibility: hidden;
+  }
+
+  #right-panel {
+    visibility: hidden;
+  }
+  .starthalf {
+    position: relative;
+    top: 10px;
+    left: 6px;
+  }
+
+  .endhalf {
+    position: absolute;
+    left: 901px;
+    top: 151px;
+  }
+  
+  .pageHeader {
+    border-bottom: 3px solid #003b63;
+    margin-bottom: 10px;
+    color: #003b63;
+  }
+
+  
+
+  /* DCExternal Page CSS */
+  
+ 
