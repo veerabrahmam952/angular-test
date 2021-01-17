@@ -409,6 +409,45 @@ export class GrpComponent implements OnInit {
               "AtomRules": [],
               "AtomIntegartions": []
             }]
+          },{
+            "Properties": {
+              "MoleculeType": "formcontrol",
+              "MoleculeIsDisplay": true,
+              "MoleculePositionClass": "offset-md-11",
+              "MoleculeLabelClass": "col-md-8",
+              "MoleculeIsColumnDisplay": true,
+              "MoleculeControlPositionClass": "",
+              "MoleculeTooltip": "Submit",
+              "MoleculeHelpText": "Click to Submit",
+              "MoleculeLabelText": "",
+              "MoleculeValidations": false
+            },
+            "MoleculeAtoms": [
+              {
+                "AtomName": "grp_back",
+                "AtomType": "button",
+                "AtomTabIndex": 1,
+                "AtomIsDisabled": false,
+                "AtomMaxLength": 10,
+                "AtomMinLength": 5,
+                "AtomPlaceHolder": "back",
+                "AtomIsReadOnly": false,
+                "AtomIsRequired": true,
+                "AtomIsAutoComplete": false,
+                "AtomId": "btn_back",
+                "AtomValue": "Back",
+                "AtomValueType": "",
+                "AtomOtherProperties": [],
+                "AtomOptions": [],
+                "AtomMethods": [],
+                "AtomRules": [],
+                "AtomIntegartions": [],
+                "AtomTriggerPageNavigation": false,
+                "AtomNewPageIndex": 0,
+                "AtomPositionClass": "",
+                "AtomLabelClass": "btn btnprimary ml-4"
+              }
+            ]
           }],
           "OrganismIsDisplay": true,
           "OrganismDisplayRule": [],
